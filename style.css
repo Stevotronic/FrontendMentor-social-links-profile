@@ -49,7 +49,7 @@ h3 {
 }
 
 h4 {
-    margin: 1.5rem 0 1rem 0;
+    margin: 1.5rem 0 1.5rem 0;
     font-weight: 400;
     font-size: 14px; 
  }
@@ -98,3 +98,17 @@ footer {
 
 .attribution { font-size: 11px; text-align: center; }
     .attribution a { color: hsl(228, 45%, 44%); }
+
+    /* For screen sizes less than or equal to 480px (most likely a mobile device), the body element's font size will be set to 12px and the #photo element's width will be set to 100% */
+@media only screen and (max-width: 450px) {
+    
+
+    main {
+        width: 325px;
+    }
+
+    h4 {
+        font-size: 12px; 
+     }
+    
+  }
